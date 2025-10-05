@@ -77,9 +77,11 @@ The optimization problem minimizes total portfolio variance under budget and non
 
 ![MVP Equation](https://latex.codecogs.com/svg.image?%5Cmin_w%5C%3Bw%5ET%5CSigma%5C%3Bw%5Cquad%5Ctext%7Bs.t.%7D%5Cquad%5Csum_iw_i%3D1%2C%5C%3Bw_i%5Cge0)
 
-where:  
-- \( \Sigma \) = covariance matrix of returns  
-- \( w \) = portfolio weights
+where:
+
+- ![\Sigma](https://latex.codecogs.com/svg.image?%5CSigma) = covariance matrix of returns  
+- ![w](https://latex.codecogs.com/svg.image?w) = portfolio weights
+
 
 
 
