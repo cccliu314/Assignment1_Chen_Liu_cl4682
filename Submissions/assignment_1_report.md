@@ -108,14 +108,7 @@ This function calculates the minimum-variance weights using **SciPy's SLSQP solv
 
 ## 4. Results
 
-### 4.1 Efficient Frontier
-The efficient frontier illustrates all feasible risk-return combinations.
-
-![Efficient Frontier](./portfolio_output/efficient_frontier.png)
-
-> The orange point represents the **maximum Sharpe ratio portfolio**, and the dashed line is the **Capital Market Line (CML)**.
-
-### 4.2 Portfolio Backtest Performance
+### 4.1 Portfolio Backtest Performance
 
 **Backtest Period:** 2018-01-01 to 2025-10-01
 
@@ -133,7 +126,7 @@ The efficient frontier illustrates all feasible risk-return combinations.
 
 > The MVP strategy maintained low volatility but achieved slightly negative cumulative returns. Its defensive nature results in stability but limited upside compared to benchmarks like S&P 500.
 
-### 4.3 Comparison Across Weighting Schemes
+### 4.2 Comparison Across Weighting Schemes
 
 | Portfolio Type | Cumulative Return | Annual Volatility | Sharpe Ratio |
 |----------------|------------------:|------------------:|--------------:|
@@ -143,8 +136,8 @@ The efficient frontier illustrates all feasible risk-return combinations.
 
 **Performance Visualization:**
 
-![Mean Portfolio](./backtest_results/mean.png)
-![Minimum Portfolio](./backtest_results/minimum.png)
+![Mean Portfolio](./mean%20portfolio.png)
+![Minimum Portfolio](./MVP%20portfolio.png)
 
 ---
 
