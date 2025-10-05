@@ -75,11 +75,12 @@ python source_codes/plot_efficient_frontier.py --output_dir ./portfolio_output
 
 The optimization problem minimizes total portfolio variance under budget and non-negative constraints:
 
-![MVP Equation](https://latex.codecogs.com/svg.image?\min_w\;w^T\Sigma w\quad\text{s.t.}\quad\sum_iw_i=1,\;w_i\ge0)
+![MVP Equation](https://latex.codecogs.com/svg.image?%5Cmin_w%5C%3Bw%5ET%5CSigma%5C%3Bw%5Cquad%5Ctext%7Bs.t.%7D%5Cquad%5Csum_iw_i%3D1%2C%5C%3Bw_i%5Cge0)
 
-where:
+where:  
 - \( \Sigma \) = covariance matrix of returns  
 - \( w \) = portfolio weights
+
 
 
 ### 3.2 Core MVP Implementation
