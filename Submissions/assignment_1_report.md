@@ -117,7 +117,8 @@ This function calculates the minimum-variance weights using **SciPy's SLSQP solv
 
 **Backtest Period:** 2018-01-01 to 2025-10-01
 
-![Portfolio Value](./portfolio_output/Portfolio_Values.png)
+![Portfolio Value](./Portfolio_Values.png)
+
 
 | Metric | Value |
 |:--|--:|
