@@ -1,4 +1,4 @@
-# Assignment 1 — Fundamental Portfolio Optimization and Backtest Report
+# Assignment 1 Report
 
 ## 1. Objective
 This project implements a **Mean-Variance Portfolio (MVP)** optimization framework using fundamental stock selection within the S&P 500 universe. The goal is to identify efficient portfolios that balance return and risk, visualize the efficient frontier, and evaluate performance through backtesting.
