@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# 大文件与缓存不要提交
+source_codes/data_processor/*.csv
+source_codes/cache/
+portfolio_output/*.pickle
+source_codes/portfolio_output/*.pickle
+Submissions/portfolio_output/*.pickle
+result/
+results/

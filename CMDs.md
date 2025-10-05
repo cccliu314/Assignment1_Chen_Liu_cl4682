@@ -1,0 +1,1 @@
+python fundamental_portfolio.py --stocks_price ./data_processor/sp500_tickers_daily_price.csv --stock_selected ./result/stock_selected.csv
