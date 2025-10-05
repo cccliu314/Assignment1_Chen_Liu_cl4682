@@ -71,14 +71,16 @@ python source_codes/plot_efficient_frontier.py --output_dir ./portfolio_output
 
 ## 3. Methodology
 
-### 3.1 Mean-Variance Portfolio (MVP) Model
+### 3.1 Mean–Variance Portfolio (MVP) Model
+
 The optimization problem minimizes total portfolio variance under budget and non-negative constraints:
 
-\[ \min_w w^T \Sigma w \quad \text{s.t.} \quad \sum_i w_i = 1, \; w_i \ge 0 \]
+![MVP Equation](https://latex.codecogs.com/svg.image?\min_w\;w^T\Sigma w\quad\text{s.t.}\quad\sum_iw_i=1,\;w_i\ge0)
 
 where:
-- \( \Sigma \) = covariance matrix of returns
+- \( \Sigma \) = covariance matrix of returns  
 - \( w \) = portfolio weights
+
 
 ### 3.2 Core MVP Implementation
 Below shows the essential logic used in the optimization routine:
